@@ -5,12 +5,12 @@ The implementation uses *zlib* compression and *base64* encoding.
 ## Install
 
 ```sh
-go get github.com/va-slyusarev/afs...
+go get github.com/va-slyusarev/afs/...
 ```
 
 ## Use case
 1. Add assets to the catalog;
-2. Run `cmd/afs` utility by adjusting the appropriate parameters;
+2. Run `afs/afs` utility by adjusting the appropriate parameters;
 3. Add generated class to your code and use.
 
 ```go
